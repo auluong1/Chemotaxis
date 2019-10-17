@@ -10,6 +10,7 @@ Bacteria[] colony;
  }   
  void draw()   
  {    
+  background(127);
   for(int i = 0; i < colony.length; i++)
   {
    colony[i].move();
@@ -19,10 +20,10 @@ Bacteria[] colony;
  class Bacteria    
  {     
  	int myX, myY, myColor;
-  myColor = color(0, 0, 255);
   Walker()
   {
    myX = myY = 250;
+   myColor = color(0, 0, 255);
   }
   void move()
   {
