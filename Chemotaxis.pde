@@ -2,6 +2,7 @@ Bacteria[] colony;
  void setup()   
  {     
   size(500, 500);
+  textAlign(CENTER);
   colony = new Bacteria[7];
   for(int i = 0; i < colony.length; i++)
    {
@@ -20,7 +21,7 @@ Bacteria[] colony;
  class Bacteria    
  {     
  	int myX, myY, myColor;
-  Walker()
+  Backteria()
   {
    myX = myY = 250;
    myColor = color(0, 0, 255);
