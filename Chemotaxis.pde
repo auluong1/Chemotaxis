@@ -21,7 +21,7 @@ Bacteria[] colony;
  class Bacteria    
  {
   int myX, myY, myColor;
-  Backteria()
+  Bacteria()
   {
    myX = myY = 250;
    myColor = color(0, 0, 255);
