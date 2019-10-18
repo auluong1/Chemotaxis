@@ -28,8 +28,18 @@ Bacteria[] colony;
   }
   void move()
   {
-   myX = myX + (int)(Math.random() * 7) - 3;
-   myY = myY + (int)(Math.random() * 7) - 3;
+   if(mouseX > myX)
+   {
+    myX = myX + (int)(Math.random() * 7) - 1;
+   } else {
+    myX = myX + (int)(Math.random() * 7) - 4;
+   }
+   if(mouseY > myY)
+   {
+   myY = myY + (int)(Math.random() * 7) - 1;
+   } else {
+   myY = myY + (int)(Math.random() * 7) - 4;
+   }
   }
   void show()
   {
