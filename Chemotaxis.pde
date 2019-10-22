@@ -3,7 +3,7 @@ Bacteria[] colony;
  {     
   size(500, 500);
   textAlign(CENTER);
-  colony = new Bacteria[9001];
+  colony = new Bacteria[666];
   for(int i = 0; i < colony.length; i++)
    {
     colony[i] = new Bacteria();
